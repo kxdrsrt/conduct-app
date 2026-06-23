@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>Conduct Updates</title>
+        <link>https://raw.githubusercontent.com/kxdrsrt/conduct-app/main/appcast.xml</link>
+        <description>Updates for Conduct - Media Key Router</description>
+        <language>en</language>
+        <!--
+            To publish a new release:
+            1. Build the universal .app:
+                 make clean then make build-universal SWIFT_DEBUG_FLAGS=
+            2. Zip it (signature is over the bytes, so the name is interchangeable):
+                 ditto -c -k (keepParent) build/Conduct.app build/Conduct-vX.Y.Z.zip
+            3. Sign the zip with your EdDSA private key (read from the Keychain):
+                 ./Frameworks/bin/sign_update build/Conduct-vX.Y.Z.zip
+            4. Copy the output (edSignature + length) into the <enclosure> below
+            5. Update version, url, and release notes
+            6. Commit and push
+        -->
+        <item>
+            <title>Version 1.0.0</title>
+            <pubDate>Sat, 21 Jun 2026 00:00:00 +0000</pubDate>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>Conduct 1.0.0</h2>
+                <p>The first public release - a lightweight menu bar conductor for your media keys.</p>
+                <ul>
+                    <li>Route media keys to your preferred music app, with smart Auto mode detection</li>
+                    <li>9 supported players plus YouTube browser control across 13 browsers</li>
+                    <li>Volume key redirection, double-tap skip, and a global app-cycle hotkey</li>
+                    <li>Settings window that sizes to each tab with a rock-solid nav bar and a smooth sliding selection indicator</li>
+                    <li>Auto Priority and Detection with live drag-reordering</li>
+                    <li>Launch at login, an onboarding tour, and built-in auto-updates</li>
+                    <li>Localized in English and German</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/kxdrsrt/conduct-app/releases/download/v1.0.0/Conduct-v1.0.0.zip"
+                sparkle:edSignature="VIca2q/dZ7OCGjhuUPX0m1cflhGHnKSNvTinPVGTkU+mPR/pucgmjPEPAo2dxc7GkNGr+xXun8ak+OY6xa4jAg=="
+                length="3291297"
+                type="application/octet-stream"
+            />
+        </item>
+    </channel>
+</rss>

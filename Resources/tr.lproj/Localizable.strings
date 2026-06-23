@@ -1,0 +1,130 @@
+/* Menu */
+"menu.header" = "Conduct";
+"menu.control" = "Kontrol:";
+"menu.controlVolumeKeys" = "Ses Tu\u015flar\u0131n\u0131 Kontrol Et";
+"menu.launchAtLogin" = "Giri\u015fte Ba\u015flat";
+"menu.settings" = "Ayarlar\u2026";
+"menu.checkForUpdates" = "G\u00fcncellemeleri Kontrol Et\u2026";
+"menu.about" = "Conduct Hakk\u0131nda";
+"menu.close" = "Pencereyi Kapat";
+"menu.quit" = "Conduct'tan \u00c7\u0131k";
+
+/* About */
+"about.title" = "Conduct";
+"about.description" = "Medya tu\u015flar\u0131n\u0131z\u0131 istedi\u011finiz m\u00fczik uygulamas\u0131na y\u00f6nlendiren \u00fccretsiz, a\u00e7\u0131k kaynakl\u0131 bir men\u00fc \u00e7ubu\u011fu arac\u0131.";
+"about.ok" = "Tamam";
+
+/* Settings */
+"settings.musicApp" = "M\u00fczik Uygulamas\u0131";
+"settings.control" = "Kontrol:";
+"settings.volumeKeys" = "Ses Tu\u015flar\u0131";
+"settings.redirectVolume" = "Ses tu\u015flar\u0131n\u0131 m\u00fczik uygulamas\u0131na y\u00f6nlendir";
+"settings.redirectVolumeDesc" = "Etkinle\u015ftirildi\u011finde, donan\u0131m ses tu\u015flar\u0131 sistem sesi yerine m\u00fczik uygulaman\u0131z\u0131n sesini kontrol eder.";
+"settings.general" = "Genel";
+"settings.launchAtLogin" = "Giri\u015fte Conduct'\u0131 ba\u015flat";
+"settings.launchAtLoginDesc" = "Mac'inize giri\u015f yapt\u0131\u011f\u0131n\u0131zda Conduct'\u0131 otomatik olarak ba\u015flat\u0131n, b\u00f6ylece medya tu\u015flar\u0131 her zaman y\u00f6nlendirilir.";
+"settings.about" = "Hakk\u0131nda";
+"settings.version" = "Conduct v1.0.0";
+"settings.tagline" = "Medya tu\u015flar\u0131n\u0131z i\u00e7in bir orkestra \u015fefi.";
+"settings.officialPlayers" = "Resmi Oynat\u0131c\u0131lar";
+"settings.thirdParty" = "\u00dc\u00e7\u00fcnc\u00fc Taraf";
+"settings.browserBased" = "Taray\u0131c\u0131 Tabanl\u0131";
+"settings.notInstalled" = "Y\u00fcklü De\u011fil";
+"settings.playerDescription" = "Medya tu\u015flar\u0131n\u0131z\u0131 hangi uygulaman\u0131n alaca\u011f\u0131n\u0131 se\u00e7in. Conduct, oynat, duraklat, sonraki ve \u00f6nceki komutlar\u0131n\u0131 se\u00e7iminize y\u00f6nlendirir.";
+"settings.behavior" = "Davran\u0131\u015f";
+"settings.pauseOthers" = "Oynatmada di\u011fer uygulamalar\u0131 duraklat";
+"settings.pauseOthersDesc" = "Oynat'a bast\u0131\u011f\u0131n\u0131zda, o anda \u00e7alan di\u011fer m\u00fczik uygulamalar\u0131n\u0131 otomatik olarak duraklat.";
+"settings.playOnWake" = "Uyan\u0131\u015fta oynatmay\u0131 s\u00fcrd\u00fcr";
+"settings.playOnWakeDesc" = "Mac'iniz uykudan uyan\u0131rken m\u00fczik uygulaman\u0131z\u0131 otomatik olarak s\u00fcrd\u00fcr.";
+"settings.notifyOnSwitch" = "Auto uygulama de\u011fi\u015ftirince bildir";
+"settings.notifyOnSwitchDesc" = "Auto modu medya tu\u015flar\u0131n\u0131 farkl\u0131 bir uygulamaya y\u00f6nlendirdi\u011finde bildirim g\u00f6ster.";
+"settings.hideMenuBarIcon" = "Men\u00fc \u00e7ubu\u011fu simgesini gizle";
+"settings.hideMenuBarIconDesc" = "Conduct'\u0131n baton simgesini men\u00fc \u00e7ubu\u011fundan gizle. Ayarlara tekrar eri\u015fmek i\u00e7in Spotlight veya Finder'dan Conduct'\u0131 yeniden a\u00e7.";
+"settings.doubleTap" = "\u00c7ift Dokunma Eylemi";
+"settings.doubleTapAction" = "Eylem";
+"settings.doubleTapNone" = "Hi\u00e7biri";
+"settings.doubleTapSkipTwo" = "2 Par\u00e7ay\u0131 Atla";
+"settings.doubleTapRestart" = "\u00c7alma Listesini Yeniden Ba\u015flat";
+"settings.doubleTapDesc" = "\u00d6zel bir eylem tetiklemek i\u00e7in 400\u00a0ms i\u00e7inde sonraki/\u00f6nceki tu\u015funa \u00e7ift dokunun.";
+"settings.volumeStep" = "Ses Ad\u0131m Boyutu";
+"settings.volumeStepDesc" = "Her tu\u015f bas\u0131\u015f\u0131nda sesin ne kadar de\u011fi\u015fece\u011fi (ses tu\u015fu y\u00f6nlendirmesi etkinle\u015ftirildi\u011finde).";
+"settings.hotkey" = "Genel K\u0131sayol";
+"settings.hotkeyEnabled" = "Uygulama d\u00f6ng\u00fcs\u00fc i\u00e7in \u2303\u2325M'yi etkinle\u015ftir";
+"settings.hotkeyDesc" = "Ayarlar\u0131 a\u00e7madan m\u00fczik uygulamalar\u0131 aras\u0131nda ge\u00e7i\u015f yapmak i\u00e7in Control+Option+M'ye bas\u0131n.";
+"settings.controls" = "Kontroller";
+"settings.sectionStartup" = "Ba\u015flang\u0131\u00e7";
+"settings.sectionAppearance" = "G\u00f6r\u00fcn\u00fcm";
+"settings.sectionNotifications" = "Bildirimler";
+"settings.showSplash" = "Ba\u015flatmada durum penceresini g\u00f6ster";
+"settings.showSplashDesc" = "Uygulama her ba\u015flad\u0131\u011f\u0131nda Conduct durum penceresini g\u00f6ster.";
+"settings.sectionVolumeKeys" = "Ses Tu\u015flar\u0131";
+"settings.sectionMediaKeys" = "Medya Tu\u015flar\u0131";
+"settings.sectionShortcut" = "Genel K\u0131sayol";
+"settings.sectionPlayback" = "Oynatma";
+"settings.stepLabel" = "Ad\u0131m";
+"settings.shortcutEnabled" = "D\u00f6ng\u00fc k\u0131sayolunu etkinle\u015ftir";
+"settings.shortcutLabel" = "K\u0131sayol";
+"settings.shortcutDesc" = "M\u00fczik uygulamalar\u0131n\u0131z aras\u0131nda ge\u00e7i\u015f yapmak i\u00e7in bu k\u0131sayolu herhangi bir yerden kullan\u0131n.";
+"settings.shortcutRecord" = "Kaydet";
+"settings.shortcutCancel" = "\u0130ptal";
+"settings.shortcutNone" = "Hi\u00e7biri";
+"settings.shortcutHint" = "K\u0131sayol girin\u2026";
+"settings.sectionAutoMode" = "Otomatik Mod";
+"settings.ignoredApps" = "Yoksay\u0131lan Uygulamalar";
+"settings.ignoredAppsDesc" = "Burada i\u015faretlenen uygulamalar Otomatik mod alg\u0131lamas\u0131ndan hari\u00e7 tutulur.";
+"settings.priority" = "Otomatik \u00d6ncelik ve Alg\u0131lama";
+"settings.priorityDesc" = "Birden fazla uygulama \u00e7al\u0131\u015f\u0131yor ancak hi\u00e7biri \u00e7alm\u0131yorken Otomatik modun tercih etti\u011fi s\u0131ray\u0131 ayarlamak i\u00e7in s\u00fcr\u00fckleyin. Bir uygulamas\u0131n\u0131 Otomatik alg\u0131lamaya dahil etmek veya hari\u00e7 tutmak i\u00e7in d\u00fc\u011fmeyi kullan\u0131n.";
+"settings.help" = "Yard\u0131m";
+"settings.showWelcome" = "Kar\u015f\u0131lama K\u0131lavuzunu G\u00f6ster\u2026";
+"settings.reportIssue" = "Sorun Bildir\u2026";
+"settings.supportTitle" = "Conduct'\u0131 Destekle";
+"settings.donateKofi" = "Ko-fi'de Ba\u011f\u0131\u015f Yap \u2192";
+"settings.donateSponsors" = "GitHub Sponsors \u2192";
+"settings.donateOC" = "Open Collective \u2192";
+"settings.donatePatreon" = "Patreon \u2192";
+"settings.donateLiberapay" = "Liberapay \u2192";
+"settings.howItWorks" = "Nas\u0131l \u00e7al\u0131\u015f\u0131r";
+"settings.howItWorksBody" = "Conduct, medya tu\u015fu olaylar\u0131n\u0131 (oynat, duraklat, sonraki, \u00f6nceki) yakalar ve bunlar\u0131 AppleScript arac\u0131l\u0131\u011f\u0131yla se\u00e7ti\u011finiz m\u00fczik uygulamas\u0131na y\u00f6nlendirir. Otomatik modda, hangi oynat\u0131c\u0131n\u0131n aktif oldu\u011funu alg\u0131lar.";
+"settings.helpFooter" = "Conduct, medya tu\u015flar\u0131n\u0131 yakalamak i\u00e7in Eri\u015filebilirlik iznine ihtiya\u00e7 duyar.";
+"settings.website" = "Web Sitesi \u2192";
+"settings.checkUpdates" = "G\u00fcncellemeleri Kontrol Et\u2026";
+"settings.autoUpdates" = "G\u00fcncellemeleri otomatik olarak kontrol et";
+
+/* Music Apps */
+"app.auto" = "Otomatik (Ak\u0131ll\u0131 Alg\u0131lama)";
+"app.appleMusic" = "Apple Music";
+"app.spotify" = "Spotify";
+"app.doppler" = "Doppler";
+"app.vox" = "VOX";
+"app.swinsian" = "Swinsian";
+"app.cider" = "Cider";
+"app.daftCloud" = "DaftCloud";
+"app.youtube" = "YouTube (Taray\u0131c\u0131)";
+
+/* Tooltip */
+"tooltip" = "Conduct - Medya Tu\u015fu Y\u00f6nlendiricisi";
+
+/* Accessibility */
+"accessibility.appleEvents" = "Conduct, m\u00fczik uygulaman\u0131za oynat/duraklat, sonraki par\u00e7a ve \u00f6nceki par\u00e7a komutlar\u0131n\u0131 g\u00f6nderme izni gerektirir.";
+
+/* Onboarding */
+"onboarding.back" = "Geri";
+"onboarding.next" = "Devam";
+"onboarding.getStarted" = "Ba\u015flay\u0131n";
+"onboarding.welcomeTitle" = "Conduct'a Ho\u015f Geldiniz";
+"onboarding.welcomeBody" = "Medya tu\u015flar\u0131n\u0131z, sizin kurallar\u0131n\u0131z. Conduct, oynat, duraklat, sonraki ve \u00f6nceki komutlar\u0131n\u0131 se\u00e7ti\u011finiz m\u00fczik uygulamas\u0131na y\u00f6nlendirir.";
+"onboarding.menuBarTitle" = "Men\u00fc \u00c7ubu\u011funda Ya\u015far";
+"onboarding.menuBarBody" = "Conduct men\u00fc \u00e7ubu\u011funda sessizce \u00e7al\u0131\u015f\u0131r. Uygulama de\u011fi\u015ftirmek veya ayarlar\u0131 d\u00fczenlemek i\u00e7in istedi\u011finiz zaman baton simgesine t\u0131klay\u0131n.";
+"onboarding.playerTitle" = "Oynat\u0131c\u0131n\u0131z\u0131 Se\u00e7in";
+"onboarding.playerBody" = "Bunu istedi\u011finiz zaman men\u00fc \u00e7ubu\u011fundan veya Ayarlar'dan de\u011fi\u015ftirebilirsiniz.";
+"onboarding.accessibilityTitle" = "Bir \u0130zin Gerekli";
+"onboarding.accessibilityBody" = "Conduct, medya tu\u015flar\u0131n\u0131 yakalamak i\u00e7in Eri\u015filebilirlik eri\u015fimine ihtiya\u00e7 duyar. macOS, kurulum sonras\u0131nda size soracak - Sistem Ayarlar\u0131'ndan d\u00fc\u011fmeyi \u00e7evirmeniz yeterli.";
+"onboarding.featuresTitle" = "T\u00fcm \u00d6zellikleri";
+"onboarding.featMediaKeys" = "Oynat, duraklat, sonraki ve \u00f6nceki tu\u015flar\u0131n\u0131 y\u00f6nlendirir";
+"onboarding.featAuto" = "Aktif oynat\u0131c\u0131y\u0131 otomatik alg\u0131lar";
+"onboarding.featPlayers" = "9 m\u00fczik uygulamas\u0131 desteklenir";
+"onboarding.featBrowser" = "12 taray\u0131c\u0131da YouTube'u kontrol eder";
+"onboarding.featVolume" = "Ses tu\u015flar\u0131n\u0131 y\u00f6nlendirir";
+"onboarding.featDoubleTap" = "\u00c7ift dokunma eylemleri";
+"onboarding.featShortcut" = "Genel d\u00f6ng\u00fc k\u0131sayolu";
+"onboarding.featUpdates" = "Otomatik g\u00fcncellemeler";

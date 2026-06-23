@@ -1,0 +1,54 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-release:
+    runs-on: macos-14
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Setup Sparkle
+        run: |
+          chmod +x Scripts/setup-sparkle.sh
+          Scripts/setup-sparkle.sh
+
+      - name: Build Universal Binary
+        run: make build-universal SWIFT_DEBUG_FLAGS=
+
+      - name: Create DMG
+        run: |
+          mkdir -p dist/dmg-content
+          cp -R build/Conduct.app dist/dmg-content/
+          ln -s /Applications dist/dmg-content/Applications
+          hdiutil create -volname "Conduct" \
+            -srcfolder dist/dmg-content \
+            -ov -format UDZO \
+            "dist/Conduct-${{ github.ref_name }}.dmg"
+
+      - name: Create ZIP
+        run: |
+          cd build
+          ditto -c -k --keepParent Conduct.app "../dist/Conduct-${{ github.ref_name }}.zip"
+
+      - name: Build release notes
+        run: |
+          python3 Scripts/extract_changelog.py "${{ github.ref_name }}" > release-notes.md
+          cat release-notes.md
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          name: Conduct ${{ github.ref_name }}
+          body_path: release-notes.md
+          files: |
+            dist/Conduct-${{ github.ref_name }}.dmg
+            dist/Conduct-${{ github.ref_name }}.zip

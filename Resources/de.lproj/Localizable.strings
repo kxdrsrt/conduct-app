@@ -1,0 +1,130 @@
+/* Menu */
+"menu.header" = "Conduct";
+"menu.control" = "Steuern:";
+"menu.controlVolumeKeys" = "Lautstärketasten steuern";
+"menu.launchAtLogin" = "Beim Anmelden starten";
+"menu.settings" = "Einstellungen …";
+"menu.checkForUpdates" = "Nach Updates suchen …";
+"menu.about" = "Über Conduct";
+"menu.close" = "Fenster schlie\u00DFen";
+"menu.quit" = "Conduct beenden";
+
+/* About */
+"about.title" = "Conduct";
+"about.description" = "Ein kostenloses Open-Source-Menüleisten-Dienstprogramm, das Medientasten an die Musik-App deiner Wahl weiterleitet.";
+"about.ok" = "OK";
+
+/* Settings */
+"settings.musicApp" = "Musik-App";
+"settings.control" = "Steuern:";
+"settings.volumeKeys" = "Lautstärketasten";
+"settings.redirectVolume" = "Lautstärketasten an Musik-App weiterleiten";
+"settings.redirectVolumeDesc" = "Wenn aktiviert, steuern die Lautstärketasten die Lautstärke deiner Musik-App anstatt der Systemlautstärke.";
+"settings.general" = "Allgemein";
+"settings.launchAtLogin" = "Conduct beim Anmelden starten";
+"settings.launchAtLoginDesc" = "Conduct automatisch starten, wenn du dich bei deinem Mac anmeldest, damit Medientasten immer weitergeleitet werden.";
+"settings.about" = "Über";
+"settings.version" = "Conduct v1.0.0";
+"settings.tagline" = "Ein Dirigent für deine Medientasten.";
+"settings.officialPlayers" = "Offizielle Player";
+"settings.thirdParty" = "Drittanbieter";
+"settings.browserBased" = "Browserbasiert";
+"settings.notInstalled" = "Nicht installiert";
+"settings.playerDescription" = "Wähle die App, die deine Medientasten empfängt. Conduct leitet Play, Pause, Vor und Zurück an deine Auswahl weiter.";
+"settings.behavior" = "Verhalten";
+"settings.pauseOthers" = "Andere Apps bei Play pausieren";
+"settings.pauseOthersDesc" = "Wenn du Play drückst, werden andere laufende Musik-Apps automatisch pausiert.";
+"settings.playOnWake" = "Wiedergabe bei Aufwachen fortsetzen";
+"settings.playOnWakeDesc" = "Musik automatisch fortsetzen, wenn dein Mac aus dem Ruhezustand aufwacht.";
+"settings.notifyOnSwitch" = "Benachrichtigung bei Auto-Wechsel";
+"settings.notifyOnSwitchDesc" = "Zeige eine Benachrichtigung an, wenn Auto die Medientasten an eine andere App weiterleitet.";
+"settings.hideMenuBarIcon" = "Menüleisten-Symbol ausblenden";
+"settings.hideMenuBarIconDesc" = "Verstecke das Conduct-Symbol aus der Men\u00FCleiste. Um die Einstellungen erneut zu \u00F6ffnen, starte Conduct \u00FCber Spotlight oder den Finder.";
+"settings.doubleTap" = "Doppeltipp-Aktion";
+"settings.doubleTapAction" = "Aktion";
+"settings.doubleTapNone" = "Keine";
+"settings.doubleTapSkipTwo" = "2 Titel überspringen";
+"settings.doubleTapRestart" = "Playlist neustarten";
+"settings.doubleTapDesc" = "Doppeltipp auf Vor/Zurück innerhalb von 400ms löst eine Sonderaktion aus.";
+"settings.volumeStep" = "Lautstärke-Schrittweite";
+"settings.volumeStepDesc" = "Wie stark sich die Lautstärke pro Tastendruck ändert (wenn Lautstärketasten-Umleitung aktiv ist).";
+"settings.hotkey" = "Globaler Kurzbefehl";
+"settings.hotkeyEnabled" = "⌃⌥M zum Wechseln der Ziel-App aktivieren";
+"settings.hotkeyDesc" = "Drücke Ctrl+Option+M, um durch die Musik-Apps zu wechseln, ohne die Einstellungen zu öffnen.";
+"settings.controls" = "Steuerung";
+"settings.sectionStartup" = "Start";
+"settings.sectionAppearance" = "Darstellung";
+"settings.sectionNotifications" = "Benachrichtigungen";
+"settings.showSplash" = "Statusfenster beim Start anzeigen";
+"settings.showSplashDesc" = "Das Conduct-Statusfenster beim Start der App anzeigen.";
+"settings.sectionVolumeKeys" = "Lautstärketasten";
+"settings.sectionMediaKeys" = "Medientasten";
+"settings.sectionShortcut" = "Globaler Kurzbefehl";
+"settings.sectionPlayback" = "Wiedergabe";
+"settings.stepLabel" = "Schritt";
+"settings.shortcutEnabled" = "Kurzbefehl zum Wechseln aktivieren";
+"settings.shortcutLabel" = "Kurzbefehl";
+"settings.shortcutDesc" = "Drücke diesen Kurzbefehl von überall, um durch deine Musik-Apps zu wechseln.";
+"settings.shortcutRecord" = "Aufnehmen";
+"settings.shortcutCancel" = "Abbrechen";
+"settings.shortcutNone" = "Keiner";
+"settings.shortcutHint" = "Kurzbefehl eingeben…";
+"settings.sectionAutoMode" = "Auto-Modus";
+"settings.ignoredApps" = "Ignorierte Apps";
+"settings.ignoredAppsDesc" = "Hier markierte Apps werden von der Auto-Erkennung ausgeschlossen.";
+"settings.priority" = "Auto-Priorität und Erkennung";
+"settings.priorityDesc" = "Ziehe zum Festlegen der Reihenfolge, die Auto bevorzugt, wenn mehrere Apps laufen, aber keine spielt. Mit dem Schalter schließt du eine App von der Auto-Erkennung ein oder aus.";
+"settings.help" = "Hilfe";
+"settings.showWelcome" = "Willkommens-Guide anzeigen …";
+"settings.reportIssue" = "Problem melden …";
+"settings.supportTitle" = "Conduct unterstützen";
+"settings.donateKofi" = "Auf Ko-fi spenden →";
+"settings.donateSponsors" = "GitHub Sponsors →";
+"settings.donateOC" = "Open Collective →";
+"settings.donatePatreon" = "Patreon →";
+"settings.donateLiberapay" = "Liberapay →";
+"settings.howItWorks" = "So funktioniert's";
+"settings.howItWorksBody" = "Conduct fängt Medientasten-Ereignisse (Play, Pause, Vor, Zurück) ab und leitet sie per AppleScript an deine gewählte Musik-App weiter. Im Auto-Modus erkennt es, welcher Player gerade aktiv ist.";
+"settings.helpFooter" = "Conduct benötigt die Bedienungshilfen-Berechtigung, um Medientasten abzufangen.";
+"settings.website" = "Webseite →";
+"settings.checkUpdates" = "Nach Updates suchen …";
+"settings.autoUpdates" = "Automatisch nach Updates suchen";
+
+/* Music Apps */
+"app.auto" = "Auto (Erkennung)";
+"app.appleMusic" = "Apple Music";
+"app.spotify" = "Spotify";
+"app.doppler" = "Doppler";
+"app.vox" = "VOX";
+"app.swinsian" = "Swinsian";
+"app.cider" = "Cider";
+"app.daftCloud" = "DaftCloud";
+"app.youtube" = "YouTube (Browser)";
+
+/* Tooltip */
+"tooltip" = "Conduct - Medientasten-Router";
+
+/* Accessibility */
+"accessibility.appleEvents" = "Conduct benötigt die Berechtigung, Wiedergabe/Pause-, Nächster-Titel- und Vorheriger-Titel-Befehle an deine Musik-App zu senden.";
+
+/* Onboarding */
+"onboarding.back" = "Zurück";
+"onboarding.next" = "Weiter";
+"onboarding.getStarted" = "Los geht's";
+"onboarding.welcomeTitle" = "Willkommen bei Conduct";
+"onboarding.welcomeBody" = "Deine Medientasten, deine Regeln. Conduct leitet Play, Pause, Vor und Zurück an die Musik-App deiner Wahl weiter.";
+"onboarding.menuBarTitle" = "Lebt in deiner Menüleiste";
+"onboarding.menuBarBody" = "Conduct läuft dezent in der Menüleiste. Klicke jederzeit auf das Taktstock-Symbol, um Apps zu wechseln oder Einstellungen anzupassen.";
+"onboarding.playerTitle" = "Wähle deinen Player";
+"onboarding.playerBody" = "Du kannst dies jederzeit über die Menüleiste oder die Einstellungen ändern.";
+"onboarding.accessibilityTitle" = "Eine Berechtigung nötig";
+"onboarding.accessibilityBody" = "Conduct benötigt Bedienungshilfen-Zugriff, um Medientasten abzufangen. macOS wird dich nach dem Setup fragen - einfach den Schalter in den Systemeinstellungen umlegen.";
+"onboarding.featuresTitle" = "Alle Funktionen";
+"onboarding.featMediaKeys" = "Leitet Play, Pause, Vor & Zurück weiter";
+"onboarding.featAuto" = "Erkennt den aktiven Player automatisch";
+"onboarding.featPlayers" = "9 Musik-Apps unterstützt";
+"onboarding.featBrowser" = "Steuert YouTube in 12 Browsern";
+"onboarding.featVolume" = "Leitet die Lautstärketasten um";
+"onboarding.featDoubleTap" = "Doppeltipp-Aktionen";
+"onboarding.featShortcut" = "Globaler Wechsel-Kurzbefehl";
+"onboarding.featUpdates" = "Automatische Updates";

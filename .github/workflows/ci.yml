@@ -1,0 +1,26 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: macos-14
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Setup Sparkle
+        run: |
+          chmod +x Scripts/setup-sparkle.sh
+          Scripts/setup-sparkle.sh
+
+      - name: Build (Universal)
+        run: make build-universal
+
+      - name: Verify binary architectures
+        run: |
+          lipo -info build/Conduct.app/Contents/MacOS/Conduct
+          file build/Conduct.app/Contents/MacOS/Conduct

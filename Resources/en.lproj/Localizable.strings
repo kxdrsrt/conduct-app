@@ -1,0 +1,130 @@
+/* Menu */
+"menu.header" = "Conduct";
+"menu.control" = "Control:";
+"menu.controlVolumeKeys" = "Control Volume Keys";
+"menu.launchAtLogin" = "Launch at Login";
+"menu.settings" = "Settings…";
+"menu.checkForUpdates" = "Check for Updates…";
+"menu.about" = "About Conduct";
+"menu.close" = "Close Window";
+"menu.quit" = "Quit Conduct";
+
+/* About */
+"about.title" = "Conduct";
+"about.description" = "A free, open-source menu bar utility that directs your media keys to the music app of your choice.";
+"about.ok" = "OK";
+
+/* Settings */
+"settings.musicApp" = "Music App";
+"settings.control" = "Control:";
+"settings.volumeKeys" = "Volume Keys";
+"settings.redirectVolume" = "Redirect volume keys to music app";
+"settings.redirectVolumeDesc" = "When enabled, the hardware volume keys will control your music app's volume instead of the system volume.";
+"settings.general" = "General";
+"settings.launchAtLogin" = "Launch Conduct at login";
+"settings.launchAtLoginDesc" = "Automatically start Conduct when you log in to your Mac so media keys are always routed.";
+"settings.about" = "About";
+"settings.version" = "Conduct v1.0.0";
+"settings.tagline" = "A conductor for your media keys.";
+"settings.officialPlayers" = "Official Players";
+"settings.thirdParty" = "Third-Party";
+"settings.browserBased" = "Browser-Based";
+"settings.notInstalled" = "Not Installed";
+"settings.playerDescription" = "Choose which app receives your media keys. Conduct will route play, pause, next, and previous to your selection.";
+"settings.behavior" = "Behavior";
+"settings.pauseOthers" = "Pause other apps on play";
+"settings.pauseOthersDesc" = "When you press play, automatically pause any other music app that's currently playing.";
+"settings.playOnWake" = "Resume playback on wake";
+"settings.playOnWakeDesc" = "Automatically resume your music when your Mac wakes from sleep.";
+"settings.notifyOnSwitch" = "Notify when Auto switches apps";
+"settings.notifyOnSwitchDesc" = "Show a notification when Auto mode routes media keys to a different app.";
+"settings.hideMenuBarIcon" = "Hide menu bar icon";
+"settings.hideMenuBarIconDesc" = "Hide the Conduct baton icon from the menu bar. To access settings again, re-open Conduct from Spotlight or Finder.";
+"settings.doubleTap" = "Double-Tap Action";
+"settings.doubleTapAction" = "Action";
+"settings.doubleTapNone" = "None";
+"settings.doubleTapSkipTwo" = "Skip 2 Tracks";
+"settings.doubleTapRestart" = "Restart Playlist";
+"settings.doubleTapDesc" = "Double-tap next/previous within 400ms to trigger a special action.";
+"settings.volumeStep" = "Volume Step Size";
+"settings.volumeStepDesc" = "How much the volume changes per key press (when volume key redirection is enabled).";
+"settings.hotkey" = "Global Hotkey";
+"settings.hotkeyEnabled" = "Enable ⌃⌥M to cycle target app";
+"settings.hotkeyDesc" = "Press Control+Option+M to cycle through music apps without opening settings.";
+"settings.controls" = "Controls";
+"settings.sectionStartup" = "Startup";
+"settings.sectionAppearance" = "Appearance";
+"settings.sectionNotifications" = "Notifications";
+"settings.showSplash" = "Show status window on launch";
+"settings.showSplashDesc" = "Display the Conduct status window each time the app starts.";
+"settings.sectionVolumeKeys" = "Volume Keys";
+"settings.sectionMediaKeys" = "Media Keys";
+"settings.sectionShortcut" = "Global Shortcut";
+"settings.sectionPlayback" = "Playback";
+"settings.stepLabel" = "Step";
+"settings.shortcutEnabled" = "Enable cycle shortcut";
+"settings.shortcutLabel" = "Shortcut";
+"settings.shortcutDesc" = "Press this shortcut from anywhere to cycle through your music apps.";
+"settings.shortcutRecord" = "Record";
+"settings.shortcutCancel" = "Cancel";
+"settings.shortcutNone" = "None";
+"settings.shortcutHint" = "Type shortcut…";
+"settings.sectionAutoMode" = "Auto Mode";
+"settings.ignoredApps" = "Ignored Apps";
+"settings.ignoredAppsDesc" = "Apps checked here will be excluded from Auto mode detection.";
+"settings.priority" = "Auto Priority and Detection";
+"settings.priorityDesc" = "Drag to set the order Auto mode prefers when several apps are running but none is playing. Use the switch to include or exclude an app from Auto detection.";
+"settings.help" = "Help";
+"settings.showWelcome" = "Show Welcome Guide…";
+"settings.reportIssue" = "Report an Issue…";
+"settings.supportTitle" = "Support Conduct";
+"settings.donateKofi" = "Donate on Ko-fi →";
+"settings.donateSponsors" = "GitHub Sponsors →";
+"settings.donateOC" = "Open Collective →";
+"settings.donatePatreon" = "Patreon →";
+"settings.donateLiberapay" = "Liberapay →";
+"settings.howItWorks" = "How it works";
+"settings.howItWorksBody" = "Conduct intercepts media key events (play, pause, next, previous) and redirects them to your chosen music app via AppleScript. In Auto mode, it detects which player is currently active.";
+"settings.helpFooter" = "Conduct requires Accessibility permission to intercept media keys.";
+"settings.website" = "Website →";
+"settings.checkUpdates" = "Check for Updates…";
+"settings.autoUpdates" = "Automatically check for updates";
+
+/* Music Apps */
+"app.auto" = "Auto (Smart Detect)";
+"app.appleMusic" = "Apple Music";
+"app.spotify" = "Spotify";
+"app.doppler" = "Doppler";
+"app.vox" = "VOX";
+"app.swinsian" = "Swinsian";
+"app.cider" = "Cider";
+"app.daftCloud" = "DaftCloud";
+"app.youtube" = "YouTube (Browser)";
+
+/* Tooltip */
+"tooltip" = "Conduct - Media Key Router";
+
+/* Accessibility */
+"accessibility.appleEvents" = "Conduct needs permission to send play/pause, next track, and previous track commands to your music app.";
+
+/* Onboarding */
+"onboarding.back" = "Back";
+"onboarding.next" = "Continue";
+"onboarding.getStarted" = "Get Started";
+"onboarding.welcomeTitle" = "Welcome to Conduct";
+"onboarding.welcomeBody" = "Your media keys, your rules. Conduct routes play, pause, next, and previous to the music app you choose.";
+"onboarding.menuBarTitle" = "Lives in Your Menu Bar";
+"onboarding.menuBarBody" = "Conduct runs quietly in the menu bar. Click the baton icon anytime to switch apps or adjust settings.";
+"onboarding.playerTitle" = "Choose Your Player";
+"onboarding.playerBody" = "You can change this anytime from the menu bar or Settings.";
+"onboarding.accessibilityTitle" = "One Permission Needed";
+"onboarding.accessibilityBody" = "Conduct needs Accessibility access to intercept media keys. macOS will prompt you after setup - just flip the switch in System Settings.";
+"onboarding.featuresTitle" = "Everything It Does";
+"onboarding.featMediaKeys" = "Routes play, pause, next & previous";
+"onboarding.featAuto" = "Auto-detects the active player";
+"onboarding.featPlayers" = "9 music apps supported";
+"onboarding.featBrowser" = "Controls YouTube in 12 browsers";
+"onboarding.featVolume" = "Redirects the volume keys";
+"onboarding.featDoubleTap" = "Double-tap actions";
+"onboarding.featShortcut" = "Global cycle shortcut";
+"onboarding.featUpdates" = "Automatic updates";

@@ -1,0 +1,44 @@
+# Build output
+build/
+
+# Sparkle framework (downloaded via `make setup`)
+Frameworks/
+
+# Xcode
+Conduct.xcodeproj/xcuserdata/
+Conduct.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcuserstate
+xcuserdata/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Xcode build
+DerivedData/
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+# Swift Package Manager
+.build/
+Packages/
+Package.resolved
+*.xcodeproj
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Archives
+*.zip
+*.dmg
+*.tar.gz
+
+# Local notes (prompts, drafts, personal docs)
+notes/
+*.code-workspace

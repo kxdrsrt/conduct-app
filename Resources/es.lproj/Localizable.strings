@@ -1,0 +1,130 @@
+/* Menu */
+"menu.header" = "Conduct";
+"menu.control" = "Controlar:";
+"menu.controlVolumeKeys" = "Controlar teclas de volumen";
+"menu.launchAtLogin" = "Iniciar al entrar";
+"menu.settings" = "Ajustes\u2026";
+"menu.checkForUpdates" = "Buscar actualizaciones\u2026";
+"menu.about" = "Acerca de Conduct";
+"menu.close" = "Cerrar ventana";
+"menu.quit" = "Salir de Conduct";
+
+/* About */
+"about.title" = "Conduct";
+"about.description" = "Una utilidad gratuita y de c\u00f3digo abierto para la barra de men\u00fa que dirige tus teclas multimedia a la app de m\u00fasica que elijas.";
+"about.ok" = "OK";
+
+/* Settings */
+"settings.musicApp" = "App de m\u00fasica";
+"settings.control" = "Controlar:";
+"settings.volumeKeys" = "Teclas de volumen";
+"settings.redirectVolume" = "Redirigir teclas de volumen a la app de m\u00fasica";
+"settings.redirectVolumeDesc" = "Cuando est\u00e1 activado, las teclas de volumen del hardware controlar\u00e1n el volumen de tu app de m\u00fasica en lugar del volumen del sistema.";
+"settings.general" = "General";
+"settings.launchAtLogin" = "Iniciar Conduct al entrar";
+"settings.launchAtLoginDesc" = "Inicia Conduct autom\u00e1ticamente al iniciar sesi\u00f3n en tu Mac para que las teclas multimedia siempre est\u00e9n enrutadas.";
+"settings.about" = "Acerca de";
+"settings.version" = "Conduct v1.0.0";
+"settings.tagline" = "Un director para tus teclas multimedia.";
+"settings.officialPlayers" = "Reproductores oficiales";
+"settings.thirdParty" = "Terceros";
+"settings.browserBased" = "Basado en navegador";
+"settings.notInstalled" = "No instalado";
+"settings.playerDescription" = "Elige qu\u00e9 app recibe tus teclas multimedia. Conduct enrutar\u00e1 reproducir, pausar, siguiente y anterior a tu selecci\u00f3n.";
+"settings.behavior" = "Comportamiento";
+"settings.pauseOthers" = "Pausar otras apps al reproducir";
+"settings.pauseOthersDesc" = "Al pulsar reproducir, pausar autom\u00e1ticamente cualquier otra app de m\u00fasica que est\u00e9 reproduciendo.";
+"settings.playOnWake" = "Reanudar reproducci\u00f3n al despertar";
+"settings.playOnWakeDesc" = "Reanudar tu m\u00fasica autom\u00e1ticamente cuando tu Mac sale del modo de reposo.";
+"settings.notifyOnSwitch" = "Notificar cuando Auto cambia de app";
+"settings.notifyOnSwitchDesc" = "Mostrar una notificaci\u00f3n cuando el modo Auto redirige las teclas multimedia a una app diferente.";
+"settings.hideMenuBarIcon" = "Ocultar icono de la barra de men\u00fa";
+"settings.hideMenuBarIconDesc" = "Oculta el icono de batuta de Conduct de la barra de men\u00fa. Para acceder a los ajustes de nuevo, vuelve a abrir Conduct desde Spotlight o el Finder.";
+"settings.doubleTap" = "Acci\u00f3n de doble toque";
+"settings.doubleTapAction" = "Acci\u00f3n";
+"settings.doubleTapNone" = "Ninguna";
+"settings.doubleTapSkipTwo" = "Saltar 2 pistas";
+"settings.doubleTapRestart" = "Reiniciar lista";
+"settings.doubleTapDesc" = "Doble toque en siguiente/anterior en 400\u00a0ms para activar una acci\u00f3n especial.";
+"settings.volumeStep" = "Tama\u00f1o de paso de volumen";
+"settings.volumeStepDesc" = "Cu\u00e1nto cambia el volumen por pulsaci\u00f3n de tecla (cuando la redirecci\u00f3n de teclas de volumen est\u00e1 activada).";
+"settings.hotkey" = "Atajo global";
+"settings.hotkeyEnabled" = "Activar \u2303\u2325M para cambiar app";
+"settings.hotkeyDesc" = "Pulsa Control+Opci\u00f3n+M para cambiar entre apps de m\u00fasica sin abrir los ajustes.";
+"settings.controls" = "Controles";
+"settings.sectionStartup" = "Inicio";
+"settings.sectionAppearance" = "Apariencia";
+"settings.sectionNotifications" = "Notificaciones";
+"settings.showSplash" = "Mostrar ventana de estado al iniciar";
+"settings.showSplashDesc" = "Mostrar la ventana de estado de Conduct cada vez que la app se inicia.";
+"settings.sectionVolumeKeys" = "Teclas de volumen";
+"settings.sectionMediaKeys" = "Teclas multimedia";
+"settings.sectionShortcut" = "Atajo global";
+"settings.sectionPlayback" = "Reproducci\u00f3n";
+"settings.stepLabel" = "Paso";
+"settings.shortcutEnabled" = "Activar atajo de ciclo";
+"settings.shortcutLabel" = "Atajo";
+"settings.shortcutDesc" = "Pulsa este atajo desde cualquier lugar para cambiar entre tus apps de m\u00fasica.";
+"settings.shortcutRecord" = "Grabar";
+"settings.shortcutCancel" = "Cancelar";
+"settings.shortcutNone" = "Ninguno";
+"settings.shortcutHint" = "Escribe atajo\u2026";
+"settings.sectionAutoMode" = "Modo Auto";
+"settings.ignoredApps" = "Apps ignoradas";
+"settings.ignoredAppsDesc" = "Las apps marcadas aqu\u00ed ser\u00e1n excluidas de la detecci\u00f3n del modo Auto.";
+"settings.priority" = "Prioridad y detecci\u00f3n Auto";
+"settings.priorityDesc" = "Arrastra para establecer el orden que prefiere el modo Auto cuando varias apps est\u00e1n en ejecuci\u00f3n pero ninguna reproduce. Usa el interruptor para incluir o excluir una app de la detecci\u00f3n Auto.";
+"settings.help" = "Ayuda";
+"settings.showWelcome" = "Mostrar gu\u00eda de bienvenida\u2026";
+"settings.reportIssue" = "Reportar un problema\u2026";
+"settings.supportTitle" = "Apoyar Conduct";
+"settings.donateKofi" = "Donar en Ko-fi \u2192";
+"settings.donateSponsors" = "GitHub Sponsors \u2192";
+"settings.donateOC" = "Open Collective \u2192";
+"settings.donatePatreon" = "Patreon \u2192";
+"settings.donateLiberapay" = "Liberapay \u2192";
+"settings.howItWorks" = "C\u00f3mo funciona";
+"settings.howItWorksBody" = "Conduct intercepta los eventos de teclas multimedia (reproducir, pausar, siguiente, anterior) y los redirige a tu app de m\u00fasica elegida mediante AppleScript. En modo Auto, detecta qu\u00e9 reproductor est\u00e1 activo.";
+"settings.helpFooter" = "Conduct requiere permiso de Accesibilidad para interceptar las teclas multimedia.";
+"settings.website" = "Sitio web \u2192";
+"settings.checkUpdates" = "Buscar actualizaciones\u2026";
+"settings.autoUpdates" = "Buscar actualizaciones autom\u00e1ticamente";
+
+/* Music Apps */
+"app.auto" = "Auto (Detecci\u00f3n inteligente)";
+"app.appleMusic" = "Apple Music";
+"app.spotify" = "Spotify";
+"app.doppler" = "Doppler";
+"app.vox" = "VOX";
+"app.swinsian" = "Swinsian";
+"app.cider" = "Cider";
+"app.daftCloud" = "DaftCloud";
+"app.youtube" = "YouTube (Navegador)";
+
+/* Tooltip */
+"tooltip" = "Conduct - Enrutador de teclas multimedia";
+
+/* Accessibility */
+"accessibility.appleEvents" = "Conduct necesita permiso para enviar comandos de reproducir/pausar, pista siguiente y pista anterior a tu app de m\u00fasica.";
+
+/* Onboarding */
+"onboarding.back" = "Atr\u00e1s";
+"onboarding.next" = "Continuar";
+"onboarding.getStarted" = "Comenzar";
+"onboarding.welcomeTitle" = "Bienvenido a Conduct";
+"onboarding.welcomeBody" = "Tus teclas multimedia, tus reglas. Conduct enruta reproducir, pausar, siguiente y anterior a la app de m\u00fasica que elijas.";
+"onboarding.menuBarTitle" = "Vive en tu barra de men\u00fa";
+"onboarding.menuBarBody" = "Conduct se ejecuta silenciosamente en la barra de men\u00fa. Haz clic en el icono de batuta en cualquier momento para cambiar de app o ajustar la configuraci\u00f3n.";
+"onboarding.playerTitle" = "Elige tu reproductor";
+"onboarding.playerBody" = "Puedes cambiar esto en cualquier momento desde la barra de men\u00fa o los Ajustes.";
+"onboarding.accessibilityTitle" = "Un permiso necesario";
+"onboarding.accessibilityBody" = "Conduct necesita acceso de Accesibilidad para interceptar las teclas multimedia. macOS te lo pedir\u00e1 despu\u00e9s de la configuraci\u00f3n - simplemente activa el interruptor en Ajustes del Sistema.";
+"onboarding.featuresTitle" = "Todo lo que hace";
+"onboarding.featMediaKeys" = "Enruta reproducir, pausar, siguiente y anterior";
+"onboarding.featAuto" = "Detecta autom\u00e1ticamente el reproductor activo";
+"onboarding.featPlayers" = "9 apps de m\u00fasica compatibles";
+"onboarding.featBrowser" = "Controla YouTube en 12 navegadores";
+"onboarding.featVolume" = "Redirige las teclas de volumen";
+"onboarding.featDoubleTap" = "Acciones de doble toque";
+"onboarding.featShortcut" = "Atajo de ciclo global";
+"onboarding.featUpdates" = "Actualizaciones autom\u00e1ticas";
