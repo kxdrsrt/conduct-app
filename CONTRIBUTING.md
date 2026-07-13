@@ -1,5 +1,28 @@
 # Contributing to Conduct
 
+Conduct is open source and welcomes contributions of all kinds - bug reports, feature requests, code, documentation, and translations.
+
+## Reporting bugs
+
+Open an issue and include:
+
+- macOS version and which music app(s) you use
+- Steps to reproduce the problem
+- What you expected vs. what happened
+
+## Suggesting features
+
+Open an issue describing the use case. Keep in mind Conduct is a lightweight menu bar controller, so proposals that add significant complexity or dependencies are less likely to land.
+
+## Contributing code
+
+1. Fork the repo and create a branch.
+2. Build with `make build` (requires Xcode command-line tools).
+3. Make your changes. Run the app with `make dev` to test locally.
+4. Open a pull request with a clear description of what changed and why.
+
+There is no formal style guide, but match the conventions of the surrounding code. Keep pull requests focused - one logical change per PR.
+
 ## Adding or improving a translation
 
 Conduct uses standard `.strings` files under `Resources/`. Each language is a folder named `<language-code>.lproj`.
